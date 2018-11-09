@@ -1,0 +1,23 @@
+body{
+    margin:20px;
+    padding:0;
+    background:#333;
+}
+.countryName{
+    text-align:center;
+}
+.container{
+    max-width:570px;
+    background:#fff;
+    border:5px solid #fff;
+    margin:auto;
+}
+.main-img, img, imgs img{
+    width:100%;
+}
+.imgs{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+    align-items:stretch;
+}
